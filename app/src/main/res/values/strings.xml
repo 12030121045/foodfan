@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodFans</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_cuisine">cuisine</string>
+    <string name="title_activity_indian">indian</string>
+    <string name="title_activity_south">south</string>
+    <string name="title_activity_chinese">chinese</string>
+    <string name="title_activity_italian">italian</string>
+
+</resources>

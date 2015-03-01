@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.foodfans" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Foodfanta"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".cuisine"
+            android:label="@string/title_activity_cuisine" >
+        </activity>
+        <activity
+            android:name=".indian"
+            android:label="@string/title_activity_indian" >
+        </activity>
+        <activity
+            android:name=".south"
+            android:label="@string/title_activity_south" >
+        </activity>
+        <activity
+            android:name=".chinese"
+            android:label="@string/title_activity_chinese" >
+        </activity>
+        <activity
+            android:name=".italian"
+            android:label="@string/title_activity_italian" >
+        </activity>
+    </application>
+
+</manifest>
